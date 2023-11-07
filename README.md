@@ -25,9 +25,9 @@ The last turn is used for special ending functionality to finialize the "Total c
 I ran this in the dev container using g++ instead of gcc, as there were issues. But I would imagine on gcc would work on a non-buggy Linux environment.  
 
 Ran using these inputs in the terminal:
-$g++ producer.cpp -pthread -lrt -o producer
-$g++ consumer.cpp -pthread -lrt -o consumer
-$./producer & ./consumer
+g++ producer.cpp -pthread -lrt -o producer
+g++ consumer.cpp -pthread -lrt -o consumer
+./producer & ./consumer
 
 I hope this reaches the specifications of the assignment,
 Jack Davis
