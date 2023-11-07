@@ -29,4 +29,6 @@ g++ producer.cpp -pthread -lrt -o producer<br />
 g++ consumer.cpp -pthread -lrt -o consumer<br />
 ./producer & ./consumer<br />
 
+example.png provides the last lines of the VSCode terminal after execution of "./producer & ./consumer"<br />
+
 I hope this reaches the specifications of the assignment, Jack Davis
