@@ -82,7 +82,7 @@ int main()
                     str[2] = '-'; //item 2
                     itemsConsumed++;
                 }
-                cout<<"consumed: " << itemsConsumed <<endl;
+                cout<<"Total consumed: " << itemsConsumed <<endl;
                 str[0] = 'q';
                 break;
         }
