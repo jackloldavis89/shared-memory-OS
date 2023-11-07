@@ -91,6 +91,4 @@ int main()
 
     // detach from shared memory, destruction of this memory is handeled by producer
     shmdt(str);
-
-    pthread_exit(NULL);
 }

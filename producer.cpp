@@ -101,6 +101,4 @@ int main()
     // destroy the shared memory
     shmctl(shmid, IPC_RMID, NULL);
     cout << "Producer quit...\n";
-    //end threads
-    pthread_exit(NULL);
 }
